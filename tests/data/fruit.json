@@ -1,0 +1,46 @@
+{
+  "docs": [
+    {
+      "_id":   "zzzzzz",
+      "name":  "strawberry",
+      "color": "red",
+      "size":  "small"
+    },
+    {
+      "name":  "blueberry",
+      "color": "blue",
+      "size":  "very small"
+    },
+    {
+      "name":  "orange",
+      "color": "orange",
+      "size":  "medium"
+    },
+    {
+      "name":  "banana",
+      "color": "yellow",
+      "size":  "medium"
+    },
+    {
+      "name": "durian",
+      "color": "green",
+      "size": "medium"
+    },
+    {
+      "_id":   "aaaaa",
+      "name":  "apple",
+      "color": "red",
+      "size":  "medium"
+    },
+    {
+      "name":  "watermelon",
+      "color": "green",
+      "size":  "large"
+    },
+    {
+      "name":  "grape",
+      "color": "green",
+      "size":  "small"
+    }
+  ]
+}

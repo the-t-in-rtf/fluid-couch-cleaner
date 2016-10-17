@@ -1,0 +1,22 @@
+[
+  {
+    "name": "A simple find should work...",
+    "cleanerOptions": {
+        "db": "fruit",
+        "find": { "selector": { "name": "durian" } }
+    },
+    "expectedOutput": {
+      "docs": [ { "name": "durian", "color": "green" } ]
+    }
+  },
+  {
+    "name": "Sorting by _id should work even if there's no index...",
+    "cleanerOptions": {
+      "db": "fruit",
+      "find": { "selector": { "color": "red" }, "sort": [{ "_id": "desc"} ]}
+    },
+    "expectedOutput": {
+      "docs": [ { "name":  "strawberry" }, { "name":  "apple" } ]
+    }
+  }
+]
